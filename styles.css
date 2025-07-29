@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #989D9C;
+}
+
+.link-header {
+    margin-left: 23px;
+}
+
+.button-header {
+    background-color: #665AE1;
+    width: 130px;
+    height: 41px;
+    border-radius: 21px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 23px;
+}
+
+section {
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin-top: 247px;
+    margin-bottom: 183px;
+    margin-left: 125px;
+}
+
+aside {
+    display: inline-block;
+    margin-bottom: 243px;
+    margin-left: 86px;
+
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+    margin-right: 148px;
+    line-height: 100%;
+}
+
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+    margin-right: 213px;
+    margin-bottom: 32px;
+    width: 448px;
+    height: 71px;
+    line-height: 100%;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-right: 146px;
+    margin-bottom: 80px;
+    line-height: 100%;
+    color: rgba(132, 132, 132, 1);
+}
+
+.button-aside {
+    font-weight: 700;
+    font-size: 28px;
+    width: 239px;
+    height: 64px;
+    background-color: #ADFF00;
+    border-radius: 50px;
+    border: none;
+    margin-top: 65px;
+    margin-bottom: 243px;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+    line-height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        display: none;
+    }
+
+    section {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-section {
+        margin-top: 149px;
+        margin-right: 12px;
+        margin-left: 40px;
+        width: 780px;
+    }
+
+
+    h1 {
+        margin-top: 350px;
+        margin-left: 100px;
+        font-size: 110px;
+    }
+
+    h2 {
+        margin-left: 130px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-aside {
+        margin-top: 17px;
+        margin-left: 130px;
+        width: 440px;
+        height: 130px;
+        font-size: 60px;
+    }
+
+
+
+}
